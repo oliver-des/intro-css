@@ -1,0 +1,39 @@
+body {
+    background-color:#1A5DC4;
+   
+}
+
+
+p {
+    color: bisque;
+}
+
+/*solo va a haber un h1, que es el titulo principal*/
+h1 {
+    color:white;
+    text-align: left;
+}
+
+/*subtitulos principales*/
+h2 {
+    font-weight: 900;
+    color: white;
+}
+
+
+/*dentro de la clase= subtitulos, se encuentran los h2 que dan entrada a textos informativos*/
+.subtitulos {
+    text-align: center;
+    font-weight: 100;
+    color: rgb(14, 13, 110);
+}
+
+
+.textos-informativos {
+    text-align: center;
+}
+
+/*estamos llamando a los em, que esten dentro de la clase= textos-informativos que estén dentro de un div*/
+div.textos-informativos em {
+    color: gold;
+}
