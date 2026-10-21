@@ -1,6 +1,6 @@
 body {
-    background-color:#1A5DC4;
-   
+    background-color: #1A5DC4;
+
 }
 
 
@@ -10,7 +10,7 @@ p {
 
 /*solo va a haber un h1, que es el titulo principal*/
 h1 {
-    color:white;
+    color: white;
     text-align: left;
 }
 
@@ -36,4 +36,14 @@ h2 {
 /*estamos llamando a los em, que esten dentro de la clase= textos-informativos que estén dentro de un div*/
 div.textos-informativos em {
     color: gold;
+}
+
+/*Media queries (responsive) 768px*/
+@media (min-width: 768px) {
+    
+}
+
+/*Media queries (responsive) 992px*/
+@media (min-width: 992px) {
+    
 }
